@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">党建平台</string>
+    <!--<string name="app_name">党建测试</string>-->
+    <string name="string_loading">努力加载中,请稍后…</string>
+    <string name="exitExam">是否结束考试 ？</string>
+    <string name="msg_maxi_capacity">已达到照片选择上限</string>
+    <string name="photos_num">%1$d张</string>
+    <string name="commit_num">确定(%1$d/%2$d)</string>
+    <string name="title_activity_aaaaa">aaaaa</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="monery">0.20&#126;1</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

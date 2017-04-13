@@ -1,0 +1,51 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        release {
+            keyAlias 'djgz'
+            keyPassword '1qaz2wsx'
+            storeFile file('D:/keystory/dangjian.jks')
+            storePassword '1qaz2wsx'
+        }
+        debug {
+            keyAlias 'djgz'
+            keyPassword '1qaz2wsx'
+            storeFile file('D:/keystory/dangjian.jks')
+            storePassword '1qaz2wsx'
+        }
+    }
+    compileSdkVersion 24
+    buildToolsVersion "24.0.1"
+    defaultConfig {
+        applicationId "com.dangjian"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 21
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+        }
+        debug {
+            signingConfig signingConfigs.release
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile files('libs/tbs_sdk_thirdapp_v2.4.0.1073_36840_sharewithdownload_obfs_20161011_194834.jar')
+    compile 'com.android.support:appcompat-v7:24.1.1'
+    compile 'com.android.support:recyclerview-v7:24.1.1'
+    compile 'org.xutils:xutils:3.3.36'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.google.code.gson:gson:2.7'
+    compile 'de.hdodenhof:circleimageview:2.0.0'
+    compile 'com.android.support:support-v4:24.1.1'
+}

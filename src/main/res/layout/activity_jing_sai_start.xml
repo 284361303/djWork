@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title_right_text" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/jingSaiStart_tvTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="45dp"
+                android:gravity="center_horizontal"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:text="2016年竞赛"
+                android:textColor="@color/color_999"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/test_start" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="54dp"
+                android:text="竞赛规则："
+                android:textColor="@color/color_999"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1. 时间"
+                    android:textColor="@color/color_999"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/jingSaiStart_tvStartTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:text="0-0-0"
+                    android:textColor="@color/color_999"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:text=" 至 "
+                    android:textColor="@color/color_999"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/jingSaiStart_tvEndTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:text="0-0-0"
+                    android:textColor="@color/color_999"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:text="。 "
+                    android:textColor="@color/color_999"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginTop="12dp"
+                android:text="2. 答题完成后系统将自动根据正确率和答题时间进行排名。"
+                android:textColor="@color/color_999"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="12dp"
+                android:text="3. 若答题中途退出再次进入将重新答题。"
+                android:textColor="@color/color_999"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/jingSaiStart_btnStart"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/shi_btn_red"
+                android:text="开始答题"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

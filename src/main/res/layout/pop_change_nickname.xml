@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/shi_white"
+        android:orientation="horizontal"
+        android:paddingBottom="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="30dp">
+
+        <EditText
+            android:id="@+id/popChangeNickName_et"
+            android:layout_width="240dp"
+            android:layout_height="40dp"
+            android:background="@drawable/input_border"
+            android:hint="请输入昵称"
+            android:paddingLeft="12dp"
+            android:textColor="@color/color_999"
+            android:textColorHint="@color/color_999"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:gravity="center|right"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/popChangeNickName_btn"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/shi_btn_red"
+                android:text="确定"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

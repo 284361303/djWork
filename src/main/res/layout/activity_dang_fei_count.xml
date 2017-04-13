@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/dfCount_rlTitle"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/red">
+
+        <LinearLayout
+            android:id="@+id/dfCount_llBack"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                android:src="@drawable/all_back" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dfCount_llTitleSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/dfCount_tvTitleName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="机关工作人员"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:paddingLeft="6dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/all_down" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/dfCount_scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="44dp"
+        android:layout_marginTop="44dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/dfCount_ll1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dfCount_tv1"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="职务工资（元）"
+                    android:textColor="@color/color_999"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/dfCount_et1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@null"
+                    android:hint="输入人民币"
+                    android:inputType="numberDecimal"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/color_333"
+                    android:textColorHint="@color/color_999"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <!---->
+            <LinearLayout
+                android:id="@+id/dfCount_ll2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dfCount_tv2"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="级别工资（元）"
+                    android:textColor="@color/color_999"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/dfCount_et2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@null"
+                    android:hint="输入人民币"
+                    android:inputType="numberDecimal"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/color_333"
+                    android:textColorHint="@color/color_999"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <!---->
+            <LinearLayout
+                android:id="@+id/dfCount_ll3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dfCount_tv3"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="生活津贴（元）"
+                    android:textColor="@color/color_999"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/dfCount_et3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@null"
+                    android:hint="输入人民币"
+                    android:inputType="numberDecimal"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/color_333"
+                    android:textColorHint="@color/color_999"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <!---->
+            <LinearLayout
+                android:id="@+id/dfCount_ll4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dfCount_tv4"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="工作津贴1（元）"
+                    android:textColor="@color/color_999"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/dfCount_et4"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@null"
+                    android:hint="输入人民币"
+                    android:inputType="numberDecimal"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/color_333"
+                    android:textColorHint="@color/color_999"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <!---->
+            <LinearLayout
+                android:id="@+id/dfCount_ll5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dfCount_tv5"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="工作津贴2（元）"
+                    android:textColor="@color/color_999"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/dfCount_et5"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@null"
+                    android:hint="输入人民币"
+                    android:inputType="numberDecimal"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/color_333"
+                    android:textColorHint="@color/color_999"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <!---->
+            <LinearLayout
+                android:id="@+id/dfCount_ll6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dfCount_tv6"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="工作津贴3（元）"
+                    android:textColor="@color/color_999"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/dfCount_et6"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@null"
+                    android:hint="输入人民币"
+                    android:inputType="numberDecimal"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/color_333"
+                    android:textColorHint="@color/color_999"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <!---->
+            <LinearLayout
+                android:id="@+id/dfCount_ll7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dfCount_tv7"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@color/color_1ef"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="个人所得税（元）"
+                    android:textColor="@color/color_999"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/dfCount_et7"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@null"
+                    android:hint="输入人民币"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/color_333"
+                    android:textColorHint="@color/color_999"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <!---->
+            <LinearLayout
+                android:id="@+id/dfCount_ll8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dfCount_tv8"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@color/color_1ef"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="五险一金（元）"
+                    android:textColor="@color/color_999"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/dfCount_et8"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@null"
+                    android:hint="输入人民币"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/color_333"
+                    android:textColorHint="@color/color_999"
+                    android:textSize="20sp" />
+            </LinearLayout>
+            <!---->
+            <LinearLayout
+                android:id="@+id/dfCount_ll9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/dfCount_tv9"
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:background="@color/color_1ef"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="15dp"
+                    android:text="企业年金（元）"
+                    android:textColor="@color/color_999"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/dfCount_et9"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="15dp"
+                    android:background="@null"
+                    android:hint="输入人民币"
+                    android:inputType="numberDecimal"
+                    android:textColor="@color/color_333"
+                    android:textColorHint="@color/color_999"
+                    android:textSize="20sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:background="@color/color_1ef" />
+            </LinearLayout>
+            <!---->
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/dfCount_llBottom"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp">
+
+        <LinearLayout
+            android:id="@+id/dfCount_llJiShu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="党费基数"
+                android:textColor="@color/color_999"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/dfCount_tvJiShu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="0"
+                android:textColor="@color/red"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="应交党费"
+                android:textColor="@color/color_999"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/dfCount_tvYingJiao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="0"
+                android:textColor="@color/red"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dfCount_llYJiao"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="应交党费"
+                android:textColor="@color/color_999"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/dfCount_tvYJiao_YingJiao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="0"
+                android:textColor="@color/red"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/dfCount_btn"
+                android:layout_width="70dp"
+                android:layout_height="match_parent"
+                android:background="@color/red"
+                android:text="计算"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_alignTop="@+id/dfCount_llBottom"
+        android:background="@color/line_6e6" />
+</RelativeLayout>

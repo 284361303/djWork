@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dangjian">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name=".utils.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="BUG_HD_SDK_GENERAL_KEY"
+            android:value="6bd635cb0a9a656ac75a4414e3a2e0bf" />
+
+        <activity
+            android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".activity.MainTabActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AdministratorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.OrganizationManagerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AddUserActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".activity.SelectAdministratorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SelectZhiBuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.JiFenDuiHuanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.XueAndZuoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ZhiShiJingSaiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.JingSaiStartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.XueXiZiLiaoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ReleaseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ExamResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ExamActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.UserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.RechangePWDActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".activity.UserDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.WeekExamActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TiKuLianXiExamActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ZiLiaoWebActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.InformMessageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LearningPomoteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.RankingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.EmployeeRolesActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".activity.ZZWorkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.JiJianWorkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.YouthWorkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.YouthWorkTitleDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.UnionWorkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ZhiBuFamilyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ReleaseContainPicActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".activity.XinDeWebActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".widgets.PhotoPicker.PhotoPickerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyCollectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.UserRankingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.LearningRankActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ChatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.EditReleaseActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".activity.SelectMZActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SelectDatePickerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTransparent" />
+        <activity
+            android:name=".activity.ChangeUserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.JiFenLogActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DangFeiCountActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".activity.IdeaActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name=".activity.FunctionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.AboutUsAvtivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SettingShowPicActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ZZWorkTitleDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.NotReadMessageActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

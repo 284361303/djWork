@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title_right_text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/line_0f0"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
+
+        <LinearLayout
+            android:id="@+id/ziliao_llA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="12dp">
+
+            <TextView
+                android:id="@+id/ziliao_tvA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="党章党规"
+                android:textColor="@color/color_333"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/ziliao_viewA"
+                android:layout_width="65dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jian_bian" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ziliao_llB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="12dp">
+
+            <TextView
+                android:id="@+id/ziliao_tvB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="系列讲话"
+                android:textColor="@color/color_999"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/ziliao_viewB"
+                android:layout_width="65dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jian_bian"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ziliao_llC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingTop="12dp">
+
+            <TextView
+                android:id="@+id/ziliao_tvC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="题库练习"
+                android:textColor="@color/color_999"
+                android:textSize="16sp" />
+
+            <View
+                android:id="@+id/ziliao_viewC"
+                android:layout_width="65dp"
+                android:layout_height="2dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/jian_bian"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ziliao_llAll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" />
+
+</LinearLayout>
