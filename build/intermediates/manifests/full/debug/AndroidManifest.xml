@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dangjian"
+    android:versionCode="21"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name="com.dangjian.utils.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity
+            android:name="com.dangjian.MainActivity"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="BUG_HD_SDK_GENERAL_KEY"
+            android:value="6bd635cb0a9a656ac75a4414e3a2e0bf" />
+
+        <activity
+            android:name="com.dangjian.activity.LoginActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.dangjian.activity.MainTabActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.AdministratorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.OrganizationManagerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.AddUserActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.dangjian.activity.SelectAdministratorActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.SelectZhiBuActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.JiFenDuiHuanActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.XueAndZuoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.ZhiShiJingSaiActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.JingSaiStartActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.XueXiZiLiaoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.ReleaseActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.ExamResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.ExamActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.UserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.SettingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.RechangePWDActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.dangjian.activity.UserDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.WeekExamActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.TiKuLianXiExamActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.ZiLiaoWebActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.InformMessageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.LearningPomoteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.RankingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.EmployeeRolesActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.dangjian.activity.ZZWorkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.JiJianWorkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.YouthWorkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.YouthWorkTitleDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.UnionWorkActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.ZhiBuFamilyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.ReleaseContainPicActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.dangjian.activity.XinDeWebActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.widgets.PhotoPicker.PhotoPickerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.MyCollectActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.UserRankingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.LearningRankActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.ChatActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.EditReleaseActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.dangjian.activity.SelectMZActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.SelectDatePickerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/CustomTransparent" />
+        <activity
+            android:name="com.dangjian.activity.ChangeUserActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.JiFenLogActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.DangFeiCountActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.dangjian.activity.IdeaActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+        <activity
+            android:name="com.dangjian.activity.FunctionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.AboutUsAvtivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.SettingShowPicActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.ZZWorkTitleDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.dangjian.activity.NotReadMessageActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

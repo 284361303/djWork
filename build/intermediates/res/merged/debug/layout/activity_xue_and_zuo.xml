@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title_one_text" />
+
+    <ImageView
+        android:id="@+id/xueAndZuo_ivPic"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/twolearn_todo_bigbg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/xueAndZuo_btnA"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4dp"
+                android:background="@null"
+                android:src="@drawable/twolearn_todo_materials" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="学习资料"
+                    android:textColor="@color/color_999"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/xueAndZuo_tvAMessage"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/circle_red"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/white"
+                    android:textSize="8sp"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/line_6e6" />
+
+        <LinearLayout
+            android:id="@+id/xueAndZuo_btnB"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4dp"
+                android:background="@null"
+                android:src="@drawable/twolearn_todo_atest" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="每周一考"
+                    android:textColor="@color/color_999"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/xueAndZuo_tvBMessage"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/circle_red"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="8sp"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/line_6e6" />
+
+        <LinearLayout
+            android:id="@+id/xueAndZuo_btnC"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4dp"
+                android:background="@null"
+                android:src="@drawable/twolearn_todo_competition" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="知识竞赛"
+                    android:textColor="@color/color_999"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/xueAndZuo_tvCMessage"
+                    android:layout_width="14dp"
+                    android:layout_height="14dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/circle_red"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="@color/white"
+                    android:textSize="8sp"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_6e6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/xueAndZuo_btnD"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4dp"
+                android:background="@null"
+                android:src="@drawable/twolearn_todo_experience" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="学习心得"
+                    android:textColor="@color/color_999"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/xueAndZuo_tvDMessage"
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/circle_red"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="8sp"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/line_6e6" />
+
+        <LinearLayout
+            android:id="@+id/xueAndZuo_btnE"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="4dp"
+                android:background="@null"
+                android:src="@drawable/twolearn_todo_rank" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="学习排名"
+                    android:textColor="@color/color_999"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/xueAndZuo_tvEMessage"
+                    android:layout_width="8dp"
+                    android:layout_height="8dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/circle_red"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/line_6e6" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:src="@drawable/twolearn_todo_atest" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="知识竞赛"
+                android:textColor="@color/color_999"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_6e6" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/line_6e6" />
+</LinearLayout>

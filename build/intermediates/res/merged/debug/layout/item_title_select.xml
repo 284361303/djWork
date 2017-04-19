@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/titleSelect_tvSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="16dp"
+        android:text="支部排名"
+        android:textColor="@color/color_333"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_6e6" />
+
+    <TextView
+        android:id="@+id/titleSelect_tvUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingLeft="30dp"
+        android:paddingTop="16dp"
+        android:text="个人排名"
+        android:textColor="@color/color_333"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/line_6e6" />
+
+    <LinearLayout
+        android:id="@+id/titleSelect_llZBIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleSelect_tvZBIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:paddingLeft="30dp"
+            android:paddingTop="16dp"
+            android:text="支部内排名"
+            android:textColor="@color/color_333"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line_6e6" />
+    </LinearLayout>
+</LinearLayout>

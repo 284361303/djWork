@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pwDF_tv1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="16dp"
+                android:text="机关工作人员"
+                android:textColor="@color/color_333"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/line_6e6" />
+
+            <TextView
+                android:id="@+id/pwDF_tv2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="16dp"
+                android:text="事业单位工作人员"
+                android:textColor="@color/color_333"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/line_6e6" />
+
+            <TextView
+                android:id="@+id/pwDF_tv3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="16dp"
+                android:text="机关工人"
+                android:textColor="@color/color_333"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/line_6e6" />
+
+            <TextView
+                android:id="@+id/pwDF_tv4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="16dp"
+                android:text="企业人员"
+                android:textColor="@color/color_333"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/line_6e6" />
+
+            <TextView
+                android:id="@+id/pwDF_tv5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="16dp"
+                android:text="个体经营者"
+                android:textColor="@color/color_333"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/line_6e6" />
+
+            <TextView
+                android:id="@+id/pwDF_tv6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="16dp"
+                android:text="离退休干部、职工"
+                android:textColor="@color/color_333"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/line_6e6" />
+
+            <TextView
+                android:id="@+id/pwDF_tv7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="16dp"
+                android:text="农民"
+                android:textColor="@color/color_333"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/line_6e6" />
+
+            <TextView
+                android:id="@+id/pwDF_tv8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="16dp"
+                android:text="学生"
+                android:textColor="@color/color_333"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/line_6e6" />
+
+            <TextView
+                android:id="@+id/pwDF_tv9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="16dp"
+                android:text="困难党员"
+                android:textColor="@color/color_333"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/line_6e6" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

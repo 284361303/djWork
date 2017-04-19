@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/item_selectadministrator_tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:text="权限名字"
+        android:textColor="@color/color_999"
+        android:textSize="16sp" />
+
+    <View
+        android:id="@+id/item_selectadministrator_view"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="30dp"
+        android:background="@color/line_6e6" />
+
+</LinearLayout>

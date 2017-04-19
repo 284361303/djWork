@@ -1,0 +1,562 @@
+[
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_organization_manager.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_organization_manager.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_ziliaotab_c.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_ziliaotab_c.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\exam_head.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\exam_head.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_chat_tab_a.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\fragment_chat_tab_a.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_mycollect.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_mycollect.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_user_ranking.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_user_ranking.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_zzwork_title.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_zzwork_title.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_quanxian.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_quanxian.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_edit_release.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_edit_release.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_title_select.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\pop_title_select.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_unionwork.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_unionwork.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_xue_and_zuo.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_xue_and_zuo.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_title_select_all.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\pop_title_select_all.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_rankings.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_rankings.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_zi_liao_web.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_zi_liao_web.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_tab.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_main_tab.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_change_user.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_change_user.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_learning_rank.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_learning_rank.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_zi_liao_tab_a.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\fragment_zi_liao_tab_a.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_chat_tab_c.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\fragment_chat_tab_c.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_rankings.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_rankings.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_administrator.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_select_administrator.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_title_select.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_title_select.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dang_fei_count.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_dang_fei_count.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_zzwork_title_details.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_zzwork_title_details.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_zi_liao_tab_b.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\fragment_zi_liao_tab_b.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_photo_picker.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_photo_picker.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_zhi_bu.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_select_zhi_bu.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_chat.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_chat.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_idea.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_idea.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_birthday.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\pop_birthday.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_chat.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_chat.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_select_sex.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\pop_select_sex.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_ziliaotab_a.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_ziliaotab_a.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_administrator.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_administrator.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_exam.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_exam.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_collect.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_my_collect.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_title_right_text.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\include_title_right_text.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_informmessage.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_informmessage.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ji_fen_dui_huan.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_ji_fen_dui_huan.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about_us_avtivity.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_about_us_avtivity.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_jing_sai_start.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_jing_sai_start.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_date_picker.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_select_date_picker.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_youth_work.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_youth_work.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_user.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_learning_pomote.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_learning_pomote.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_title_select9.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\pop_title_select9.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_chat_tab_b.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\fragment_chat_tab_b.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_mz.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_select_mz.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_youth_work_title_detail.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_youth_work_title_detail.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_warning.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\pop_warning.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_not_read_message.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_not_read_message.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_release_contain_pic.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_release_contain_pic.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_zhi_shi_jing_sai.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_zhi_shi_jing_sai.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_rechange_pwd.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_rechange_pwd.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_empty_loadinglayout.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\include_empty_loadinglayout.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_learing_title.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_learing_title.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_inform_message.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_inform_message.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_xin_de_web.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_xin_de_web.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_employee_roles.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_employee_roles.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_zzwork.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_zzwork.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_learing_content.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_learing_content.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_select_photo.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\pop_select_photo.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_release.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_release.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_exam_result.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_exam_result.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_progressbar.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_progressbar.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\include_title_one_text.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\include_title_one_text.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_zhi_bu_family.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_zhi_bu_family.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_week_exam.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_week_exam.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_zzwork.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\head_zzwork.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_exam.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_exam.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_function.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_function.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ji_fen_log.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_ji_fen_log.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_jifen_log.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_jifen_log.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_change_nickname.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\pop_change_nickname.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_edit_release.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_edit_release.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_ranking.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_user_ranking.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_new_tikuexam.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_new_tikuexam.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_jifen_duihuan.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_jifen_duihuan.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_photo_layout.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_photo_layout.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user_detail.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_user_detail.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_zzwork_content.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_zzwork_content.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_xue_xi_zi_liao.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_xue_xi_zi_liao.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_pwd.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\pop_pwd.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_pic.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_pic.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pop_title_select4.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\pop_title_select4.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ti_ku_lian_xi.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_ti_ku_lian_xi.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_selectadministrator.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_selectadministrator.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_youthwork_title.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_youthwork_title.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_union_work.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_union_work.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_ji_jian_work.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_ji_jian_work.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_organizationmanager.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_organizationmanager.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_user.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_add_user.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pw_jifen_duihuan.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\pw_jifen_duihuan.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_jingsai.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_jingsai.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_zi_liao_tab_c.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\fragment_zi_liao_tab_c.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting_show_pic.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_setting_show_pic.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_zzwork.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\activity_zzwork.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\item_poptitle_select.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\src\\main\\res\\layout\\item_poptitle_select.xml"
+    },
+    {
+        "merged": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "D:\\studioWorkspace\\djgz\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    }
+]

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/learingContent_iv"
+            android:layout_width="85dp"
+            android:layout_height="65dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/all_default_image" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/learingContent_tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:text="标题"
+                android:textColor="@color/color_333"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|bottom"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/learingContent_tvZZ"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="小组"
+                    android:textColor="@color/color_999"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/learingContent_tvDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="0-0-0"
+                    android:textColor="@color/color_999"
+                    android:textSize="11sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|bottom|right">
+
+                    <TextView
+                        android:id="@+id/learingContent_tvStates"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/border_red"
+                        android:paddingBottom="1dp"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:text="new"
+                        android:textColor="@color/red"
+                        android:textSize="10sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/line_6e6" />
+</LinearLayout>

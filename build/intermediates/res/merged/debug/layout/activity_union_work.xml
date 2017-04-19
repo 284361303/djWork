@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/line_0f0"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_title_right_text" />
+
+    <ImageView
+        android:id="@+id/unionWork_ivPic"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/union_work_bg" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/unionWork_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white" />
+</LinearLayout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/line_0f0"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/red">
+
+        <LinearLayout
+            android:id="@+id/editRelease_llBack"
+            android:layout_width="44dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                android:src="@drawable/all_back" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/editRelease_llTitleSelect"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/editRelease_tvTitleName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="发布类型"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:background="@null"
+                android:scaleType="centerCrop"
+                android:src="@drawable/all_down"
+                android:visibility="gone" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/red"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/editRelease_etTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shi_white"
+                    android:hint="输入你要发布的文章标题"
+                    android:paddingLeft="15dp"
+                    android:textColor="@color/color_999"
+                    android:textColorHint="@color/color_999"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:background="@color/red" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/pop_white"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/editRelease_etContent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:hint="输入你要发布的内容..."
+                        android:padding="15dp"
+                        android:textColor="@color/color_999"
+                        android:textColorHint="@color/color_999"
+                        android:textSize="16sp" />
+
+                    <LinearLayout
+                        android:id="@+id/editRelease_llGridView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:gravity="center_vertical|bottom"
+                        android:orientation="vertical">
+
+                        <android.support.v7.widget.RecyclerView
+                            android:id="@+id/editRelease_gridView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="25dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/editRelease_btnDetele"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/shi_btn_ecf"
+                    android:text="删除"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/editRelease_btnSave"
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/shi_btn_red"
+                    android:text="发布"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
